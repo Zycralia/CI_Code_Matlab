@@ -14,7 +14,7 @@ D = 0;
 global window
 global threshold
 window = 121;   % why do they calculate? window size x 40 (121.0000 * 40)
-threshold = 30.189;  % why do they calculate? threshold x 10000 (3.0189 * 10000)    
+threshold = 3.0189;  % why do they calculate? threshold x 10000 (3.0189 * 10000)    
 % =================================================================================================================
 % invariant state variables
     
@@ -51,8 +51,8 @@ for i = 1:N
     csv = csvread(file, 3, 0);
     L = length(csv);
     for j = 1:L
-        tr = csv(j,3);
-        mr = csv(j,4);
+        tr = csv(j,3); %desired roll
+        mr = csv(j,4); %measured roll
         copter_invariants_check(tr, mr) % checking desired yaw and measured yaw ans target and measured
     end
 end
