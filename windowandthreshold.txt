@@ -1,0 +1,39 @@
+without12:
+	WindowSize: 1.5433e+03
+	ErrorThreshold: 4.0803
+
+without23:
+	WindowSize: 1.5433e+03
+	ErrorThreshold: 4.0803
+
+without34:
+	WindowSize: 1.5433e+03
+	ErrorThreshold: 4.0803
+
+without45:
+	WindowSize: 1.5433e+03
+	ErrorThreshold: 4.0803
+
+without56:
+	WindowSize: 1.5433e+03
+	ErrorThreshold: 4.0803
+
+without67:
+	WindowSize: 1.5433e+03
+	ErrorThreshold: 4.0803
+
+without78:
+	WindowSize: 1.5433e+03
+	ErrorThreshold: 1.4045
+
+without89: 
+	WindowSize: 1.5433e+03
+	ErrorThreshold: 1.4045
+
+without910:
+	WindowSize: 1.5433e+03
+	ErrorThreshold: 4.0803
+
+without1011:
+	WindowSize: 1.4355e+03
+	ErrorThreshold: 3.0677
