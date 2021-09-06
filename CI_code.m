@@ -13,12 +13,12 @@ D = 0;
 % monitoring parameters
 global window
 global threshold
-window = 121;   % why do they calculate? window size x 40 (121.0000 * 40)
-threshold = 3.0189;  % why do they calculate? threshold x 10000 (3.0189 * 10000)    
+window = 1.4355e+03; %121;   % why do they calculate? window size x 40 (121.0000 * 40)
+threshold = 3.0677; %3.0189;  % why do they calculate? threshold x 10000 (3.0189 * 10000)    
 % =================================================================================================================
 % invariant state variables
     
-pathname = 'logs/';     % log directory
+pathname = 'valuation/val1011';     % log directory
 Ts = 0.1;               % sample time in log
 Ts2 = 0.0025;           % main loop rate
 files = dir(strcat(pathname, '/*.csv'));
@@ -37,8 +37,10 @@ for i = 1:N
     % local variables
     global w_index
     global max_mse
+    global w_count;  % counter to know which window we are in at the moment of attackdetection
     w_index = 0;    % current index in window (here also start with 1 because matlab?)
     max_mse = 0;    % max error (for logs)
+    w_count = 0;
 
     % attack states
     global attack_detected
@@ -68,6 +70,7 @@ function copter_invariants_check(target, measured)
     global inv_x
     global err_sum
     global w_index
+    global w_count;
     global max_mse
     global attack_detected
         err_sum = 0;
@@ -99,13 +102,15 @@ function copter_invariants_check(target, measured)
         if(w_index >= window)    % new window
             w_index = 0;
             err_sum = 0;
+            w_count = w_count + 1;
         end
     
         % check error
         if(mse > threshold) %&& invariant_enabled) invariant_enabled seems to be always true for our porposes
             % raise an alram
             attack_detected = true; %not usefull because never used?
-            fprintf('!!!ATTACK DETECTED!!!\n')
+            fprintf('!!!ATTACK DETECTED!!! in window')
+            disp(w_count)
         end
 
 end
