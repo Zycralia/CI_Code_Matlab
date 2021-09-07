@@ -1,0 +1,25 @@
+mission7:
+	allattacks: Attack Detected at 1629643755.2002892
+	switch mode: Attack Detected at 1630622051.699308
+	False Data Injection: No Attack detected
+	Artificial Delay: Attack Detected at 1630618240.299826
+mission8:
+	allattacks: Attack Detected at 1629644607.4996448
+	switch mode: Attack Detected at 1630622393.300065
+	False Data Injection: Attack Detected at 1630607913.000124
+	Artificial Delay: Attack Detected at 1630618920.200058
+mission9:
+	allattacks: Attack Detected at 1629645081.799192
+	switch mode: Attack Detected at 1630622932.399992
+	False Data Injection: Attack Detected at 1630610781.19939
+	Artificial Delay: Attack Detected at 1630619476.599959
+mission10:
+	allattacks: No Attack detected
+	switch mode: No Attack detected
+	False Data Injection: Attack Detected at 1630611415.1000648
+	Artificial Delay: No Attack detected
+mission11:
+	allattacks: Attack Detected at 1629646166.900032
+	switch mode: No Attack detected
+	False Data Injection: Attack Detected at 1630611926.19939
+	Artificial Delay: Attack Detected at 1630620505.8000247
