@@ -1,59 +1,55 @@
-window = 1.5433e+03;
-threshold = 0.31407272727; average max_mse*0.75
-maximal 3 spikes
-
 allattacks1.csv
-!!!ATTACK DETECTED!!! in window     1
+!!!ATTACK DETECTED!!! in window     2
 
    237
 
 allattacks10.csv
-!!!ATTACK DETECTED!!! in window     1
+!!!ATTACK DETECTED!!! in window     2
 
    361
 
 allattacks11.csv
-!!!ATTACK DETECTED!!! in window     0
+!!!ATTACK DETECTED!!! in window     1
 
-   498
+   497
 
 allattacks2.csv
-!!!ATTACK DETECTED!!! in window     0
+!!!ATTACK DETECTED!!! in window     1
 
-   473
+   472
 
 allattacks3.csv
-!!!ATTACK DETECTED!!! in window     1
+!!!ATTACK DETECTED!!! in window     2
 
-    30
+    29
 
 allattacks4.csv
-!!!ATTACK DETECTED!!! in window     0
+!!!ATTACK DETECTED!!! in window     1
 
-   603
+   601
 
 allattacks5.csv
-!!!ATTACK DETECTED!!! in window     0
+!!!ATTACK DETECTED!!! in window     1
 
-   459
+   458
 
 allattacks6.csv
-!!!ATTACK DETECTED!!! in window     1
+!!!ATTACK DETECTED!!! in window     2
 
-   161
+    43
 
 allattacks7.csv
-!!!ATTACK DETECTED!!! in window     1
+!!!ATTACK DETECTED!!! in window     2
 
-     4
+     1
 
 allattacks8.csv
-!!!ATTACK DETECTED!!! in window     1
+!!!ATTACK DETECTED!!! in window     2
 
    252
 
 allattacks9.csv
-!!!ATTACK DETECTED!!! in window     0
+!!!ATTACK DETECTED!!! in window     1
 
    536
 
@@ -80,90 +76,96 @@ No Attack detected
 mission9new.csv
 No Attack detected 
 missionad10.csv
-!!!ATTACK DETECTED!!! in window     2
+!!!ATTACK DETECTED!!! in window     3
 
     17
 
 missionad11.csv
-!!!ATTACK DETECTED!!! in window     4
+!!!ATTACK DETECTED!!! in window     5
 
-     4
+     1
 
 missionad7.csv
-!!!ATTACK DETECTED!!! in window     1
+!!!ATTACK DETECTED!!! in window     2
 
    238
 
 missionad8.csv
-No Attack detected 
+!!!ATTACK DETECTED!!! in window     3
+
+     1
+
 missionad9.csv
 No Attack detected 
 missionfdi1.csv
 No Attack detected 
 missionfdi10.csv
-!!!ATTACK DETECTED!!! in window     2
+!!!ATTACK DETECTED!!! in window     3
 
         1181
 
 missionfdi11.csv
-!!!ATTACK DETECTED!!! in window     5
+!!!ATTACK DETECTED!!! in window     6
 
-    20
+    18
 
 missionfdi2.csv
-No Attack detected 
-missionfdi3.csv
-!!!ATTACK DETECTED!!! in window     1
+!!!ATTACK DETECTED!!! in window     4
 
-   284
+    99
+
+missionfdi3.csv
+!!!ATTACK DETECTED!!! in window     2
+
+   282
 
 missionfdi4.csv
-!!!ATTACK DETECTED!!! in window     3
+!!!ATTACK DETECTED!!! in window     4
 
-     4
+     1
 
 missionfdi5.csv
-!!!ATTACK DETECTED!!! in window     2
+!!!ATTACK DETECTED!!! in window     3
 
-        1254
+     1
 
 missionfdi6.csv
-!!!ATTACK DETECTED!!! in window     2
+!!!ATTACK DETECTED!!! in window     3
 
    286
 
 missionfdi7.csv
-!!!ATTACK DETECTED!!! in window     3
+!!!ATTACK DETECTED!!! in window     4
 
    155
 
 missionfdi8.csv
-!!!ATTACK DETECTED!!! in window     2
+!!!ATTACK DETECTED!!! in window     3
 
    978
 
 missionfdi9.csv
-!!!ATTACK DETECTED!!! in window     2
+!!!ATTACK DETECTED!!! in window     3
 
      1
 
 missionsm10.csv
-!!!ATTACK DETECTED!!! in window     1
+!!!ATTACK DETECTED!!! in window     2
 
     17
 
 missionsm11.csv
-!!!ATTACK DETECTED!!! in window     3
+!!!ATTACK DETECTED!!! in window     4
 
-   219
+   217
 
 missionsm7.csv
-!!!ATTACK DETECTED!!! in window     3
+!!!ATTACK DETECTED!!! in window     4
 
-    93
+     1
 
 missionsm8.csv
-!!!ATTACK DETECTED!!! in window     3
+!!!ATTACK DETECTED!!! in window     4
 
     29
 
