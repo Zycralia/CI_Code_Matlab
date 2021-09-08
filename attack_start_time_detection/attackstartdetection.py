@@ -1,5 +1,6 @@
 import pandas as pd
 
+#iterates over the segments rows and calculates a variance for the whole segment for the given value(Pitch, Roll or Yaw)
 def get_threshold_per_val(seg, val):
     output = []
     for j in range(len(seg)-1):
@@ -20,6 +21,7 @@ def get_threshold_per_val(seg, val):
     res = abs(variance/(len(output)-1))
     return res
 
+# Collects the variances of Pitch, Roll and Yaw seperately for each segment and returns 3 values -> max variance in Roll, Pitch and Yaw
 def get_threshold_per_seg(file, segmentsize):
     var_roll = []
     var_pitch = []
@@ -38,6 +40,7 @@ def get_threshold_per_seg(file, segmentsize):
     res = [tresh_roll,tresh_pitch,tresh_yaw]
     return res
 
+# Iterates over the segments and checks wheter or not Roll, Pitch or Yaw variances of the segments are higher than the highest values measured in the non-attack version
 def check_attack_time(file, segmentsize, tresholds):
     filelen = len(file)
     for i in range(int((filelen-1)/segmentsize)):
@@ -58,8 +61,7 @@ def check_attack_time(file, segmentsize, tresholds):
             exit()
     print("No Attack detected")
 
-#os.chdir(r"C:\Users\lisa_\Desktop\attackstart\test")
-#[i for i in glob.glob('*.{}'.format("csv"))]
+# Starts with selecting the non attack mission you want to compare the corresponding attack mission to. first calculates the 3 max variances and then tests the attack version against these
 df = pd.read_csv('test\mission7new.csv', delimiter = ',')
 len_file = len(df)
 tresh = get_threshold_per_seg(df, 20)
